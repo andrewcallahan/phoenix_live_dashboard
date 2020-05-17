@@ -1,4 +1,5 @@
 import css from "../css/app.scss"
+import img from '../images/code.png';
 import "phoenix_html"
 import { Socket } from "phoenix"
 import NProgress from "nprogress"

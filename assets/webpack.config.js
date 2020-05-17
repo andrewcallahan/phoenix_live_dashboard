@@ -57,6 +57,13 @@ module.exports = (env, options) => ({
         test: /\.(woff2)$/,
         loader: 'url-loader'
       },
+      {
+        test: /\.(png|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: '../[path][name].[ext]',
+        },
+      },
     ]
   },
   plugins: [
